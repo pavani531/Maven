@@ -1,0 +1,40 @@
+Maven: It is a popular open-source build tool developed by the Apache Group to build,publish and deploy several projects at once for better project management
+*It allows developers to build and documents the life cycle framework
+
+ANT:it is also called as Apache ANT,It can be used as an alternate for Maven
+*Ant is open source build tool for software development.It uses XML files to describe,structure and control the build process
+
+maven repository:In maven terminology,a repository is a directory where all the project jars,library jar,plugins or any other project specific artifacts are stored and can be used by Maven easily
+
+MAVEN COMMANDS:
+1)mvn clean: It cleans the maven project by deleting the target directory
+2)mv compiler:compile:- It compiles the java source classes of the maven project
+3)mvn compiler:testCompiler:- it compiles the test classes of the maven project
+4)mvn package:it builds packages
+5)mvn install:it installs the project files to the local repository
+6)mvn deploy:it is used to deploy the artifacts to the remote repository
+7)mvn validate:it validates the project that everything is correct and all the necessary information is avalable
+8)mvn dependency:tree:-it generates the dependency tree of the maven project
+9)mvn dependency:analyze:- it is usefull for reducing the build size by identifying the unused dependencies and then removes it from the file
+10)mvn test: used to run the test cases
+11)mvn compile:used to compile the source java classes
+
+MAVEN POM:
+*POM stands for Project Object Model,It is fundamental unit of work in Maven. It is an XML file that resides in the base directory of the project as pom.xml.
+*While executing the program maven looks for the POM in the current directory.It reads the POM,gets the needed configuration information and executes the task
+Some of the configuration information that can be specified in the POM are:
+1)Project dependencies
+2)plugins
+3)goals
+4)build profiles
+5)project version
+6)developers
+7)mailing list
+
+ARTIFACT ID:
+*artifactId is the name of the jar without version
+*In a company, some other project or group of people may also have same artifact id (Let's say math-util)… To let us differentiate our group work from others, we need one identifycation.That identification will be provided by the artifact id.
+
+GROUP ID
+*The groupId is an XML element in the POM.XML file of a Maven project that specifies the id of the project group.
+* in Maven is the groupId helps to identify the project group while artifactId helps to identify the project.
